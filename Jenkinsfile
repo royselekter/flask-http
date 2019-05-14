@@ -8,7 +8,7 @@ node() {
   
   stage('Git') { // Get code from GitLab repository
     git branch: 'master',
-      url: 'https://github.com/yishaiz/opsshool-docker-home-assignment-2.git'
+      url: 'https://github.com/royselekter/flask-http.git'
   }
   
   stage('Build') { // Run the docker build
